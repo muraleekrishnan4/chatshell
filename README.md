@@ -49,7 +49,10 @@ This project is a Python-based XMPP bot that allows users to execute commands on
 </kbd>
 
 
-
+## Future Work
++ Integrate with LLM
++ More Secure
++ Use multiple tools
 
 
 ## License
