@@ -30,11 +30,25 @@ This project is a Python-based XMPP bot that allows users to execute commands on
 - Remote System Monitoring
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/9ac57b2f-8608-4834-820a-8d82efc21166)
-Example of gathering data on a domain on XMPP Client using ChatShell and receiving real-time updates.
 
-![image](https://github.com/user-attachments/assets/1f3ca3ca-7a07-45a4-9322-388b85c18991)
-Example of running Spiderfoot to gather data.
+<kbd>
+<table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/5ce67568-7520-4de5-aa4a-6a7e7349bb5e" alt="Gathering data on a domain" width="300" height="300" />
+        <p><em>Executing a command using XMPP using <br>ChatShell and receiving real-time updates</em></p>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/3b1f0d74-17c8-421b-b14e-77d0349ea5e9" alt="Executing a command" width="300" height="300" />
+        <p><em>Output from executing the command from the <br> XMPP client using ChatShell</em></p>
+      </td>
+    </tr>
+</table>
+</kbd>
+
+
+
+
 
 ## License
 This project is licensed under the MIT License.
