@@ -1,5 +1,7 @@
 # ChatShell Bot
 
+⭐Open For Contributions⭐
+
 This project is a Python-based XMPP bot that allows users to execute commands on a remote server via XMPP messages.
 
 ## Features
