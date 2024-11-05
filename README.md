@@ -23,5 +23,18 @@ This project is a Python-based XMPP bot that allows users to execute commands on
 7. Run the bot using `nohup python3 chatshell.py &`.
 
 
+## Sample Use Cases
+- OSINT Data Gathering
+- Can be used in Reconnaissance for Penetration Testing or Bug Bounty Hunting
+- Executing Automated Tasks
+- Remote System Monitoring
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/9ac57b2f-8608-4834-820a-8d82efc21166)
+Example of gathering data on a domain on XMPP Client using ChatShell and receiving real-time updates.
+
+![image](https://github.com/user-attachments/assets/1f3ca3ca-7a07-45a4-9322-388b85c18991)
+Example of running Spiderfoot to gather data.
+
 ## License
 This project is licensed under the MIT License.
