@@ -1,0 +1,8 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore configuration files that contain sensitive information
+config.py
+spiderfoot/
