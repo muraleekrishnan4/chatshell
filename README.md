@@ -1,4 +1,4 @@
-# ChatShell Bot
+# ChatXAI Bot
 
 ⭐Open For Contributions⭐
 
@@ -18,11 +18,11 @@ This project is a Python-based XMPP bot that allows users to execute commands on
 1. Register XMPP two accounts - One for server and One for client (mobile).
 2. Install XMPP client application on Mobile (Xabber or Conversations).
 3. Setup a cloud server (Use Oracle free lifetime Virtual Machine)
-4. Download and Install ChatShell.
+4. Download and Install ChatXAI.
 5. Install the requirements.
 6. Set up your XMPP credentials in `config.py`.
 7. Set up the tool that needs to be run and set the command to run (without arguments) in 'config.py'.
-7. Run the bot using `nohup python3 chatshell.py &`.
+7. Run the bot using `nohup python3 chatxai.py &`.
 
 
 ## Sample Use Cases

@@ -4,5 +4,4 @@ __pycache__/
 *.pyo
 
 # Ignore configuration files that contain sensitive information
-config.py
 spiderfoot/

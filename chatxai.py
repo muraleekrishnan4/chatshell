@@ -39,12 +39,15 @@ class XMPPListenerBot(slixmpp.ClientXMPP):
         msg.reply(f"Command output:\n{output}").send()
 
 
-# Create the bot and connect
-xmpp = XMPPListenerBot(config.JID, config.PASSWORD)
+print(config.JID, config.PASSWORD)
+if (len(config.JID)+len(config.PASSWORD)) > 1:
+	# Create the bot and connect
+	xmpp = XMPPListenerBot(config.JID, config.PASSWORD)
 
-# Connect to the XMPP server and start listening
-xmpp.connect()
+	# Connect to the XMPP server and start listening
+	xmpp.connect()
 
-# Start processing XMPP messages
-xmpp.process(forever=True)
-
+	# Start processing XMPP messages
+	xmpp.process(forever=True)
+else:
+	print("ERROR: Configure the XMPP account on config.py")
