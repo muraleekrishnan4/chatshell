@@ -13,6 +13,7 @@ This project is a Python-based XMPP bot that allows users to execute commands on
 - Python 3.x
 - Slixmpp library
 - XMPP account
+- Gemini API (Optional)
 
 ## Usage
 1. Register XMPP two accounts - One for server and One for client (mobile).
@@ -21,7 +22,8 @@ This project is a Python-based XMPP bot that allows users to execute commands on
 4. Download and Install ChatXAI.
 5. Install the requirements.
 6. Set up your XMPP credentials in `config.py`.
-7. Set up the tool that needs to be run and set the command to run (without arguments) in 'config.py'.
+7. Configure Gemini API from https://aistudio.google.com/app/apikey.
+8. Set up the tool that needs to be run and set the command to run (without arguments) in `config.py`.
 7. Run the bot using `nohup python3 chatxai.py &`.
 
 
@@ -37,20 +39,19 @@ This project is a Python-based XMPP bot that allows users to execute commands on
 <table>
     <tr>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/5ce67568-7520-4de5-aa4a-6a7e7349bb5e" alt="Gathering data on a domain" width="300" height="300" />
-        <p><em>Executing a command using XMPP using <br>ChatShell and receiving real-time updates</em></p>
+        <img src="https://github.com/user-attachments/assets/5662810e-1783-4e91-89b8-83dd7e64d2c7" alt="Gathering data on a domain" width="300" height="300" />
+        <p><em>Executing a command using XMPP using <br>ChatXAI and receiving real-time updates</em></p>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/3b1f0d74-17c8-421b-b14e-77d0349ea5e9" alt="Executing a command" width="300" height="300" />
-        <p><em>Output from executing the command from the <br> XMPP client using ChatShell</em></p>
+        <img src="https://github.com/user-attachments/assets/0d5fb703-1b49-4e27-a0c6-2798ce00a6fd" alt="Executing a command" width="300" height="300" />
+        <p><em>Output from executing the command from the <br> XMPP client using ChatXAI</em></p>
       </td>
     </tr>
 </table>
 </kbd>
 
 
-## Future Work
-+ Integrate with LLM
+## Future Work    
 + More Security
 + Use Multiple tools
 
