@@ -39,7 +39,6 @@ class XMPPListenerBot(slixmpp.ClientXMPP):
         msg.reply(f"Command output:\n{output}").send()
 
 
-print(config.JID, config.PASSWORD)
 if (len(config.JID)+len(config.PASSWORD)) > 1:
 	# Create the bot and connect
 	xmpp = XMPPListenerBot(config.JID, config.PASSWORD)
